@@ -1,0 +1,38 @@
+/* Estilos para a Modal */
+.cttcr-modal {
+    display: none; /* Esconde a modal por padrão */
+    position: fixed;
+    z-index: 1000; /* Fica sobre todo o conteúdo */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total da página */
+    height: 100%; /* Altura total da página */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+}
+.cttcr-modal h2 {
+    display: inline;
+}
+
+.cttcr-modal-content {
+    background-color: #fff;
+    margin: 15% auto; /* Centraliza verticalmente */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Largura da modal */
+    max-width: 600px; /* Largura máxima */
+}
+
+.cttcr-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+.cttcr-close:hover,
+.cttcr-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
